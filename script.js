@@ -1,5 +1,5 @@
 const dynamicText = document.querySelector("p span");
-const words = ["Game Developer", "Web Programmer"];
+const words = ["Programming", "Game", ""];
 
 // Variables to track the position and deletion status of the word
 let wordIndex = 0;
@@ -30,3 +30,5 @@ const typeEffect = () => {
 }
 
 typeEffect();
+
+

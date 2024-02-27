@@ -17,6 +17,11 @@ header {
     gap: 10px;
 }
 
+.nav-link {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
 .fa-brands {
     font-size: 1.5rem;
 }
@@ -28,10 +33,11 @@ header {
     display: flex;
 }
 
-.kedua {
+/* .kedua {
     width: 100%;
-    height: 50vh;
-}
+    height: 100vh;
+    display: flex;
+} */
 
 .intro {
     display: flex;
@@ -43,6 +49,19 @@ header {
     font-weight: bold;
 }
 
+.figure-img {
+    width: 480px;
+    height: 340px;
+    object-fit: cover;
+}
+
+.figure-caption {
+    text-align: center;
+    color: black;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
 .data {
     color: black;
     font-weight: 50px;
@@ -52,6 +71,60 @@ header {
     max-width: 100%;
     max-height: 350px;
     border-radius: 50%;
+}
+
+.about .content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about .content ul li {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.about .content ul i {
+    color: #e9e281;
+}
+
+.progress-title {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0 0 20px;
+    text-align: center;
+    
+}
+
+.progress {
+    background: #ffffff65;
+    border-radius: 0;
+    box-shadow: none;
+    overflow: visible;
+}
+
+.progress .progress-bar {
+    position: relative;
+    -webkit-animation: animate-positive 2s;
+    animation: animate-positive 2s;
+}
+
+.progress .progress-value {
+    color: black;
+    font-weight: 600;
+}
+
+.progress .progress-bar:after {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    background: #fff;
+    position: absolute;
+    top: -10px;
+    bottom: -10px;
+    right: -5px;
+    z-index: 1;
+    transform: rotate(35deg);
 }
 
 #ketikNama {
@@ -93,35 +166,4 @@ footer {
     color: cornsilk;
 }
 
-@media screen and (max-width: 500px) {
-    .card {
-        flex-direction: column;
-        gap: 0;
-    }
-    .card-item {
-        width: 100%;
-        opacity: 0.9;
-    }
-    .container {
-        width: 100%;
-        padding: 0;
-    }
-    .intro {
-        margin-top: 20px;
-    }
-    .img-foto {
-        padding: 0;
-    }
-    nav {
-        position: fixed;
-        bottom: 0;
-        width: 100%;
-        background: crimson;
-        z-index: 9;
-        color: cornsilk;
-    }
-    footer {
-        margin-bottom: 70px;
-        margin-top: 70px;
-    }
-}
+ 
