@@ -20,10 +20,22 @@ header {
 .nav-link {
     font-weight: bold;
     font-size: 1.1rem;
+    color: #F6B17A;
+}
+
+.nav-link:hover {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color:hsl(224, 100%, 82%);
+    .icon {color: hsl(224, 100%, 82%);};
 }
 
 .fa-brands {
     font-size: 1.5rem;
+}
+
+.fa-brands:hover {
+    color: hsl(224, 100%, 82%);
 }
 
 .pertama {
@@ -57,9 +69,13 @@ header {
 
 .figure-caption {
     text-align: center;
-    color: black;
+    color: hsl(224, 100%, 82%);
     font-size: 1rem;
     font-weight: 600;
+}
+
+.card-title, .card-text {
+    text-align: center;
 }
 
 .data {
@@ -134,7 +150,7 @@ header {
 }
 
 #ketikNama span {
-    color: #E19898;
+    color: hsl(224, 100%, 82%);
     font-size: 2rem;
     position: relative;
 }
@@ -146,7 +162,7 @@ header {
     position: absolute;
     top: 50%;
     right: -8px;
-    background: #E19898;
+    background: hsl(224, 100%, 82%);;
     transform: translateY(-45%);
     animation: blink 0.7s infinite;
 }
@@ -165,5 +181,3 @@ footer {
     background: chocolate;
     color: cornsilk;
 }
-
- 

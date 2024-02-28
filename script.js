@@ -1,5 +1,5 @@
 const dynamicText = document.querySelector("p span");
-const words = ["Programming", "Game", ""];
+const words = ["Programming", "Playing Games", "Reading Books", "Watching Films"];
 
 // Variables to track the position and deletion status of the word
 let wordIndex = 0;
@@ -15,7 +15,7 @@ const typeEffect = () => {
     if (!isDeleting && charIndex < currentWord.length) {
         // If condition is true, type the next character
         charIndex++;
-        setTimeout(typeEffect, 200);
+        setTimeout(typeEffect, 85);
     } else if (isDeleting && charIndex > 0) {
         // If condition is true, remove the previous character
         charIndex--;
@@ -25,7 +25,7 @@ const typeEffect = () => {
         isDeleting = !isDeleting;
         dynamicText.classList.remove("stop-blinking");
         wordIndex = !isDeleting ? (wordIndex + 1) % words.length : wordIndex;
-        setTimeout(typeEffect, 1200);
+        setTimeout(typeEffect, 1500);
     }
 }
 
