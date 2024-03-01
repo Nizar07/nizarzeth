@@ -5,7 +5,7 @@
     font-family: monospace;
     scroll-behavior: smooth;
     font-size: 1rem;
-    color: #F6B17A;
+    color: #333;
 }
 
 
@@ -20,7 +20,7 @@ header {
 .nav-link {
     font-weight: bold;
     font-size: 1.1rem;
-    color: #F6B17A;
+    color: 333;
     text-align: center;
 }
 
@@ -65,18 +65,24 @@ header {
 .figure-img {
     width: 480px;
     height: 340px;
-    object-fit: cover;
+    /* object-fit: cover; */
 }
 
 .figure-caption {
     text-align: center;
-    color: hsl(224, 100%, 82%);
+    color: #333;
     font-size: 1rem;
     font-weight: 600;
 }
 
 .card-title, .card-text {
     text-align: center;
+    color: #fcf6eb;
+}
+
+.card-body {
+    /* background-color: rgb(241, 241, 212); */
+    background-color: #333;
 }
 
 .data {
@@ -102,7 +108,7 @@ header {
 }
 
 .about .content ul i {
-    color: #e9e281;
+    color: #333;
 }
 
 .progress-title {
@@ -135,7 +141,7 @@ header {
     content: "";
     display: inline-block;
     width: 10px;
-    background: #fff;
+    background: #999;
     position: absolute;
     top: -10px;
     bottom: -10px;
