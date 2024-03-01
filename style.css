@@ -21,6 +21,7 @@ header {
     font-weight: bold;
     font-size: 1.1rem;
     color: #F6B17A;
+    text-align: center;
 }
 
 .nav-link:hover {
