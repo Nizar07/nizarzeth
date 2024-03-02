@@ -62,6 +62,7 @@ header {
     font-weight: bold;
 }
 
+
 .figure-img {
     width: 480px;
     height: 340px;
@@ -85,17 +86,6 @@ header {
     background-color: #333;
 }
 
-.data {
-    color: black;
-    font-weight: 50px;
-}
-
-.img-foto {
-    max-width: 100%;
-    max-height: 350px;
-    border-radius: 50%;
-}
-
 .about .content ul {
     list-style: none;
     padding: 0;
@@ -111,43 +101,20 @@ header {
     color: #333;
 }
 
-.progress-title {
-    font-size: 16px;
-    font-weight: 700;
-    margin: 0 0 20px;
+.skill {
+    width: 25%;
+    background-color: #333;
+}
+
+.skill-box { 
+    width: 100%;
+}
+
+.skill-title {
     text-align: center;
-    
-}
-
-.progress {
-    background: #ffffff65;
-    border-radius: 0;
-    box-shadow: none;
-    overflow: visible;
-}
-
-.progress .progress-bar {
-    position: relative;
-    -webkit-animation: animate-positive 2s;
-    animation: animate-positive 2s;
-}
-
-.progress .progress-value {
-    color: black;
-    font-weight: 600;
-}
-
-.progress .progress-bar:after {
-    content: "";
-    display: inline-block;
-    width: 10px;
-    background: #999;
-    position: absolute;
-    top: -10px;
-    bottom: -10px;
-    right: -5px;
-    z-index: 1;
-    transform: rotate(35deg);
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fcf6eb;
 }
 
 #ketikNama {
