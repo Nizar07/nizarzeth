@@ -62,6 +62,12 @@ header {
     font-weight: bold;
 }
 
+.foto-intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .figure-img {
     width: 480px;
